@@ -5,7 +5,7 @@
 // @license        GNU General Public License v3.0
 // @author         Maxximou5
 // @namespace      https://github.com/Maxximou5/
-// @homepage       https://maxximou5.com/
+// @homepage       https://github.com/Maxximou5/alliedmodders-dark
 // @match          *://*.alliedmods.net/*
 // @match          *://*.sourcemod.net/*
 // @run-at         document-start
