@@ -7,7 +7,7 @@
 * Repository:  https://github.com/maxximou5/alliedmodders-dark
 * Userstyle:   http://userstyles.org/styles/
 * License:     https://creativecommons.org/licenses/by-sa/4.0/
-* Version:     v1.0.1 (2018-07-18)
+* Version:     v1.0.2 (2018-07-25)
 */
 
 html,
@@ -194,7 +194,7 @@ html body div.wrapper table.container tbody tr td#txt.each table tbody tr td tab
 }
 }
 
-@-moz-document regexp("https?://sm.alliedmods.net/new-api/.*") {
+@-moz-document regexp("https?://(((sm.)?alliedmods)|((www.)?sourcemod))?.net/new-api/.*") {
 html,
 body {
     background: #101010 !important;
