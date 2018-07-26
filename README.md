@@ -25,7 +25,7 @@ This userstyle or userscript loads and applies the [Alliedmodders Dark](https://
 * https://alliedmods.net/
 * https://sourcemod.net/
 * https://forums.alliedmods.net/
-* https://sm.sourcemod.net/
+* https://sm.alliedmods.net/new-api/
 * https://wiki.alliedmods.net/
 
 # Installation
@@ -60,11 +60,16 @@ This userstyle or userscript loads and applies the [Alliedmodders Dark](https://
 - Install the script:
     - [GitHub](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/alliedmodders-dark.user.js)
 
-# Screenshot
+# Screenshots
 
+### [alliedmods.net](https://alliedmods.net/)
 ![alliedmodders-dark alliedmods landing page](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/screenshots/am-light-to-dark.png)
+### [sourcemod.net](https://sourcemod.net/)
 ![alliedmodders-dark sourcemod landing page](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/screenshots/sm-light-to-dark.png)
+### [forums.alliedmods.net](https://forums.alliedmods.net/)
 ![alliedmodders-dark alliedmods forums page](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/screenshots/forums-light-to-dark.png)
+### [sm.alliedmods.net/new-api](https://sm.alliedmods.net/new-api/)
 ![alliedmodders-dark sourcemod api page](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/screenshots/api-light-to-dark.png)
+### [wiki.alliedmods.net](https://wiki.alliedmods.net/)
 ![alliedmodders-dark alliedmods wiki page](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/screenshots/wiki-light-to-dark.png)
 
