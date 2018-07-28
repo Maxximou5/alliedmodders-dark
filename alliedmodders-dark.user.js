@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           AlliedModders Dark
-// @version        1.0.2
+// @version        1.0.3
 // @description    A simple dark theme for Alliedmods.net & Sourcemod.net
 // @license        GNU General Public License v3.0
 // @author         Maxximou5
@@ -25,7 +25,7 @@
 			"* Repository:  https://github.com/maxximou5/alliedmodders-dark",
 			"* Userstyle:   http://userstyles.org/styles/",
 			"* License:     https://creativecommons.org/licenses/by-sa/4.0/",
-			"* Version:     v1.0.2 (2018-07-25)",
+			"* Version:     v1.0.3 (2018-07-28)",
 			"*/",
 			"",
 			"html,",
@@ -156,6 +156,10 @@
 			"/* Donation bar creates stupid extra space... */",
 			"body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(3) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > 	tr:nth-child(2) > td:nth-child(1) > div:nth-child(1) {",
 			"    border: none !important;",
+			"}",
+			"/* Login bar has a default white background */",
+			"body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1) {",
+			"    background-color: #222 !important;",
 			"}",
 			"html body div div.page div table tbody tr td form#notices table.tborder {",
 			"    border-top: 2px solid #ce4844 !important;",

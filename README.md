@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/alliedmodders-dark-logo.png" width="600" alt="alliedmodders-dark-logo">
     <br>
     <a href="https://github.com/Maxximou5/alliedmodders-dark/">
-        <img src="https://img.shields.io/badge/Version-1.0.2-green.svg?style=flat-square" alt="Version">
+        <img src="https://img.shields.io/badge/version-1.0.3-green.svg?style=flat-square" alt="Version">
     </a>
     <a href="https://github.com/Maxximou5/alliedmodders-dark/stargazers">
         <img src="https://img.shields.io/github/stars/Maxximou5/alliedmodders-dark.svg?style=flat-square" alt="Stars">
@@ -30,19 +30,7 @@ This userstyle or userscript loads and applies the [Alliedmodders Dark](https://
 
 # Installation
 
-### Using the Userstyle Theme
-
-###### You **must** install one of the following addons to use it as a *userstyle*
-
-**Stylus Addon**
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-
-**Stylus Theme**
-- [Stylish](https://userstyles.org/styles/162634/alliedmodders-dark)
-- [OpenUserCSS](https://openusercss.org/theme/5b4ee6f0ea29c50b00b9e83d)
-
-### Using the Userscript Theme
+### Using the Userscript Theme *(Recommended Method)*
 
 ###### You **must** install one of the following addons to use it as a *userscript*
 
@@ -59,6 +47,22 @@ This userstyle or userscript loads and applies the [Alliedmodders Dark](https://
 
 - Install the script:
     - [GitHub](https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/alliedmodders-dark.user.js)
+
+### Using the Userstyle Theme
+
+###### You **must** install one of the following addons to use it as a *userstyle*
+
+**Stylus Addon**
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+
+> **WARNING** Do not use the **Stylish Addon**, use the **Stylus Addon**
+- [Stylish Banned](https://robertheaton.com/2018/07/02/stylish-browser-extension-steals-your-internet-history/)
+- [Stylish Tracking](https://robertheaton.com/2018/07/23/no-you-shouldnt-use-the-new-version-of-stylish/)
+
+**Stylus Theme**
+- [OpenUserCSS](https://openusercss.org/theme/5b4ee6f0ea29c50b00b9e83d)
+- [Userstyles](https://userstyles.org/styles/162634/alliedmodders-dark)
 
 # Screenshots
 
