@@ -7,7 +7,7 @@
 * Repository:  https://github.com/maxximou5/alliedmodders-dark
 * Userstyle:   http://userstyles.org/styles/
 * License:     https://creativecommons.org/licenses/by-sa/4.0/
-* Version:     v1.0.3 (2018-07-28)
+* Version:     v1.0.4 (2018-07-30)
 */
 
 html,
@@ -93,6 +93,19 @@ html body div div.page div form#qrform table.tborder tbody#collapseobj_quickrepl
     background-color: #222 !important;
     border-color: #242424 !important;
     box-shadow: 0 10px 4px #0F0F0F !important;
+}
+/* Thread Menu */
+.vbmenu_popup {
+    background: #222 !important;
+    border: 1px solid #0A0A0A !important;
+}
+.vbmenu_option {
+    color: #c5c5c5 !important;
+    background-color: #101010 !important;
+}
+.vbmenu_hilite {
+    color: #c5c5c5 !important;
+    background-color: #222 !important;
 }
 /* Posts */
 .quote {
