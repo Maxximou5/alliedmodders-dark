@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/Maxximou5/alliedmodders-dark/master/images/alliedmodders-dark-logo.png" width="600" alt="alliedmodders-dark-logo">
     <br>
     <a href="https://github.com/Maxximou5/alliedmodders-dark/">
-        <img src="https://img.shields.io/badge/version-1.0.4-green.svg?style=flat-square" alt="Version">
+        <img src="https://img.shields.io/badge/version-1.0.5-green.svg?style=flat-square" alt="Version">
     </a>
     <a href="https://github.com/Maxximou5/alliedmodders-dark/stargazers">
         <img src="https://img.shields.io/github/stars/Maxximou5/alliedmodders-dark.svg?style=flat-square" alt="Stars">

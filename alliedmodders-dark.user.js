@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           AlliedModders Dark
-// @version        1.0.4
+// @version        1.0.5
 // @description    A simple dark theme for Alliedmods.net & Sourcemod.net
 // @license        GNU General Public License v3.0
 // @author         Maxximou5
@@ -15,7 +15,7 @@
 // ==/UserScript==
 (function() {
 	var css = "";
-	if (false || (new RegExp("^https?://forums.alliedmods.net/.*$")).test(document.location.href))
+	if (false || (new RegExp("^https?://forums.alliedmods.net/(?!archive).*$")).test(document.location.href))
 		css += [
 			"/*",
 			"* Name:        AlliedModders Dark",
@@ -25,7 +25,7 @@
 			"* Repository:  https://github.com/maxximou5/alliedmodders-dark",
 			"* Userstyle:   http://userstyles.org/styles/",
 			"* License:     https://creativecommons.org/licenses/by-sa/4.0/",
-			"* Version:     v1.0.4 (2018-07-30)",
+			"* Version:     v1.0.5 (2018-09-13)",
 			"*/",
 			"",
 			"html,",
@@ -176,6 +176,37 @@
 			"}",
 			"html body div div.page div table tbody tr td form#notices table.tborder {",
 			"    border-top: 2px solid #ce4844 !important;",
+			"}"
+	].join("\n");
+	if (false || (new RegExp("^https?://forums.alliedmods.net/archive/.*$")).test(document.location.href))
+		css += [
+			"html,",
+			"body {",
+			"    color: #c5c5c5 !important;",
+			"    background: #101010 !important;",
+			"}",
+			"div.pagebody {",
+			"    color: #c5c5c5 !important;",
+			"    background: #101010 !important;",
+			"}",
+			"div.posttop {",
+			"    color: #c5c5c5 !important;",
+			"    background: #101010 !important;",
+			"}",
+			"div.posttext {",
+			"    color: #c5c5c5 !important;",
+			"    background: #222 !important;",
+			"}",
+			"#navbar {",
+			"    color: #c5c5c5 !important;",
+			"    background: #101010 !important;",
+			"}",
+			"a {",
+			"    text-decoration: none !important;",
+			"    color: #3171b6 !important;",
+			"}",
+			"a:visited {",
+			"    color: #3D5D80 !important;",
 			"}"
 	].join("\n");
 	if (false || (new RegExp("^https?://((sm.)|(www.)?)((alliedmods.net)|(sourcemod)?)\\/(.*(php.*))?$")).test(document.location.href) || (new RegExp("^https?://((www.)?)sourcemod.net\\/(.*(php.*))?$")).test(document.location.href))
@@ -404,6 +435,12 @@
 			"}",
 			"div#footer ul li {",
 			"    color: #c5c5c5 !important;",
+			"}",
+			".et2th {",
+			"    background-color: #1A1A1A !important;",
+			"}",
+			".et2td {",
+			"    background-color: #222 !important;",
 			"}",
 			".catlinks {",
 			"    color: #c5c5c5 !important;",

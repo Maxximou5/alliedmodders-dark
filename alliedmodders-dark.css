@@ -1,4 +1,4 @@
-@-moz-document regexp("https?://forums.alliedmods.net/.*") {
+@-moz-document regexp("https?://forums.alliedmods.net/(?!archive).*") {
 /*
 * Name:        AlliedModders Dark
 * Author:      Maxximou5
@@ -7,7 +7,7 @@
 * Repository:  https://github.com/maxximou5/alliedmodders-dark
 * Userstyle:   http://userstyles.org/styles/
 * License:     https://creativecommons.org/licenses/by-sa/4.0/
-* Version:     v1.0.4 (2018-07-30)
+* Version:     v1.0.5 (2018-09-13)
 */
 
 html,
@@ -157,6 +157,37 @@ body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(
 }
 html body div div.page div table tbody tr td form#notices table.tborder {
     border-top: 2px solid #ce4844 !important;
+}
+}
+
+@-moz-document regexp("https?://forums.alliedmods.net/archive/.*") {
+html,
+body {
+    color: #c5c5c5 !important;
+    background: #101010 !important;
+}
+div.pagebody {
+    color: #c5c5c5 !important;
+    background: #101010 !important;
+}
+div.posttop {
+    color: #c5c5c5 !important;
+    background: #101010 !important;
+}
+div.posttext {
+    color: #c5c5c5 !important;
+    background: #222 !important;
+}
+#navbar {
+    color: #c5c5c5 !important;
+    background: #101010 !important;
+}
+a {
+    text-decoration: none !important;
+    color: #3171b6 !important;
+}
+a:visited {
+    color: #3D5D80 !important;
 }
 }
 
@@ -385,6 +416,13 @@ div#footer {
 }
 div#footer ul li {
     color: #c5c5c5 !important;
+}
+.et2th {
+    background-color: #1A1A1A !important;
+}
+
+.et2td {
+    background-color: #222 !important;
 }
 .catlinks {
     color: #c5c5c5 !important;
